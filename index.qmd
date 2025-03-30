@@ -1,0 +1,41 @@
+---
+title: "Quarto Example"
+author: "Rigoberto Martinez M."
+date: "02-02-2025"
+bibliography: "references.bib"
+---
+
+# Hellow word
+
+Here is some text
+
+```{python}
+
+def calculo_cac(marketing_expense : float, num_customer : float) -> float:
+    """
+    summary: Calculo de adquisión por cliente (CAC)
+
+    Args:
+        - marketing_expense (float): Costos de adqusisión del cliente
+        - num_customer (float): numero de clientes
+
+    Returns:
+        float: CAC
+    """
+    
+    CAC = marketing_expense/num_customer
+    
+    return CAC
+
+for i in range (10):
+    print(i)
+    
+```
+
+:::{.panel-tabset}
+## Example headre
+some text
+
+## Example header 2
+some text
+:::
